@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-labelledby="title desc">
+  <title id="title">India region backdrop</title><desc id="desc">Abstract amber metropolitan network</desc>
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#211107"/><stop offset="1" stop-color="#07070b"/></linearGradient><radialGradient id="r"><stop stop-color="#ff9f1c" stop-opacity=".42"/><stop offset="1" stop-color="#ff9f1c" stop-opacity="0"/></radialGradient></defs>
+  <path fill="url(#g)" d="M0 0h640v220H0z"/><circle cx="500" cy="55" r="180" fill="url(#r)"/>
+  <g fill="#29180b"><path d="M0 179h46v-32h30v32h34v-71h39v71h45v-49h38v49h35v-98h48v98h45v-61h35v61h50v-118h29v118h52v-75h45v75h69v41H0z"/></g>
+  <g stroke="#ffb13b" stroke-opacity=".18"><path d="m70 40 135 48 122-42 116 51 120-61M70 40l40 139m95-91-11 91m133-133 33 133m83-82 2 82m118-143-42 143"/></g>
+</svg>

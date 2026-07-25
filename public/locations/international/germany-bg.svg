@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-labelledby="title desc">
+  <title id="title">Germany region backdrop</title><desc id="desc">Abstract gold European datacenter network</desc>
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#1c1505"/><stop offset="1" stop-color="#07070b"/></linearGradient><radialGradient id="r"><stop stop-color="#ffd23f" stop-opacity=".35"/><stop offset="1" stop-color="#ffd23f" stop-opacity="0"/></radialGradient></defs>
+  <path fill="url(#g)" d="M0 0h640v220H0z"/><circle cx="130" cy="50" r="175" fill="url(#r)"/>
+  <g fill="#261e09"><path d="M0 181h58v-45h34v45h48v-69h40v69h50v-105h38v105h46v-62h45v62h42v-82h36v82h47v-53h43v53h63v39H0z"/></g>
+  <g stroke="#ffd23f" stroke-opacity=".17"><circle cx="130" cy="58" r="34"/><circle cx="130" cy="58" r="72"/><path d="M130 24v-20M96 58H42m88 34v64m34-98h94"/></g>
+</svg>

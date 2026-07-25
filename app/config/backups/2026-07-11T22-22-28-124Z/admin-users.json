@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": "owner-kartik",
+      "name": "Kartik",
+      "email": "kartikmungase290@gmail.com",
+      "role": "admin",
+      "salt": "hostlixo-local-admin",
+      "passwordHash": "7f157a6dc44ef17c4046dd116f769192cd13811faac15a383bbb8d3b2faf9d84",
+      "createdAt": "2026-06-29T00:00:00.000Z"
+    }
+  ]
+}

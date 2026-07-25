@@ -1,0 +1,3 @@
+import { createPageMetadata } from "../../seo"
+export const metadata = createPageMetadata({ title: "Minecraft Hosting India | NVMe Minecraft Server Plans", description: "Buy Minecraft server hosting in India from Hostlixo Cloud with clear RAM, CPU, NVMe SSD, backups, databases, INR pricing and DDoS-filtered connectivity.", path: "/games/minecraft", keywords: ["Minecraft hosting India", "Minecraft server hosting India", "cheap Minecraft hosting", "Minecraft hosting Mumbai", "Hostlixo Minecraft hosting"] })
+export default function Layout({ children }: { children: React.ReactNode }) { return children }

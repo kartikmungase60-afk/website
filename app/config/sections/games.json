@@ -1,0 +1,740 @@
+{
+  "header": {
+    "badge": {
+      "text": "Game Servers"
+    },
+    "title": "Game Server Hosting India",
+    "description": "Launch Minecraft, Hytale and Palworld servers from Mumbai with protected connectivity, NVMe storage, INR pricing and dashboard management. Additional regions are available when your community needs them."
+  },
+  "planTypes": [
+    {
+      "id": "budget",
+      "name": "Budget Ryzen",
+      "image": "/cpu/ryzen7.png"
+    },
+    {
+      "id": "premium",
+      "name": "Premium Ryzen 9",
+      "image": "/cpu/ryzen9.png"
+    }
+  ],
+  "locations": [
+    {
+      "id": "mumbai",
+      "name": "Mumbai",
+      "flag": "/flags/india.webp",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "usa",
+      "name": "USA",
+      "flag": "/flags/usa.png",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "flag": "/flags/singapore.png",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    },
+    {
+      "id": "germany",
+      "name": "Germany",
+      "flag": "/flags/germany.png",
+      "availablePlanTypes": [
+        "budget",
+        "premium"
+      ]
+    }
+  ],
+  "games": [
+    {
+      "id": "minecraft",
+      "name": "Minecraft Java",
+      "description": "Java Edition hosting for survival, modded and community Minecraft servers",
+      "icon": "/icons/minecraft-icon.webp",
+      "banner": "/banners/minecraft-banners.webp",
+      "featured": true,
+      "startingAt": "₹60/mo",
+      "primaryColor": "#4CAF50",
+      "plans": {
+        "budget": [
+          {
+            "id": "mc-1",
+            "name": "Starter",
+            "ram": "1GB",
+            "cpu": "50%",
+            "storage": "5GB",
+            "allocations": 2,
+            "databases": 1,
+            "backups": 1,
+            "price": 45,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "mc-2",
+            "name": "Basic",
+            "ram": "2GB",
+            "cpu": "100%",
+            "storage": "8GB",
+            "allocations": 2,
+            "databases": 2,
+            "backups": 1,
+            "price": 90,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "mc-3",
+            "name": "Standard",
+            "ram": "3GB",
+            "cpu": "120%",
+            "storage": "10GB",
+            "allocations": 2,
+            "databases": 3,
+            "backups": 2,
+            "price": 135,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "mc-4",
+            "name": "Advanced",
+            "ram": "4GB",
+            "cpu": "150%",
+            "storage": "15GB",
+            "allocations": 3,
+            "databases": 3,
+            "backups": 2,
+            "price": 180,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "mc-5",
+            "name": "Pro",
+            "ram": "6GB",
+            "cpu": "200%",
+            "storage": "20GB",
+            "allocations": 3,
+            "databases": 4,
+            "backups": 2,
+            "price": 240,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "mc-6",
+            "name": "Elite",
+            "ram": "8GB",
+            "cpu": "250%",
+            "storage": "25GB",
+            "allocations": 4,
+            "databases": 5,
+            "backups": 3,
+            "price": 360,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "mc-7",
+            "name": "Ultimate",
+            "ram": "12GB",
+            "cpu": "300%",
+            "storage": "35GB",
+            "allocations": 5,
+            "databases": 5,
+            "backups": 4,
+            "price": 560,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "mc-8",
+            "name": "Infinity",
+            "ram": "16GB",
+            "cpu": "450%",
+            "storage": "45GB",
+            "allocations": 6,
+            "databases": 6,
+            "backups": 5,
+            "price": 740,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          }
+        ],
+        "premium": []
+      }
+    },
+    {
+      "id": "hytale",
+      "name": "Hytale",
+      "description": "Hytale server plans with configurable resources and dashboard access",
+      "icon": "/icons/hytale-icon.webp",
+      "banner": "/banners/hytale.jpg",
+      "featured": true,
+      "startingAt": "₹89/mo",
+      "primaryColor": "#06b6d4",
+      "plans": {
+        "budget": [
+          {
+            "id": "def-1",
+            "ram": "2GB",
+            "cpu": "100%",
+            "storage": "10GB",
+            "allocations": 1,
+            "databases": 1,
+            "backups": 1,
+            "price": 45,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-2",
+            "ram": "4GB",
+            "cpu": "150%",
+            "storage": "15GB",
+            "allocations": 2,
+            "databases": 2,
+            "backups": 1,
+            "price": 90,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-3",
+            "ram": "6GB",
+            "cpu": "200%",
+            "storage": "20GB",
+            "allocations": 2,
+            "databases": 3,
+            "backups": 1,
+            "price": 135,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-4",
+            "ram": "8GB",
+            "cpu": "250%",
+            "storage": "25GB",
+            "allocations": 3,
+            "databases": 4,
+            "backups": 2,
+            "price": 180,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-5",
+            "ram": "10GB",
+            "cpu": "300%",
+            "storage": "30GB",
+            "allocations": 3,
+            "databases": 5,
+            "backups": 2,
+            "price": 225,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-6",
+            "ram": "12GB",
+            "cpu": "350%",
+            "storage": "35GB",
+            "allocations": 4,
+            "databases": 6,
+            "backups": 2,
+            "price": 270,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-7",
+            "ram": "14GB",
+            "cpu": "400%",
+            "storage": "40GB",
+            "allocations": 4,
+            "databases": 7,
+            "backups": 2,
+            "price": 315,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-8",
+            "ram": "16GB",
+            "cpu": "450%",
+            "storage": "45GB",
+            "allocations": 5,
+            "databases": 8,
+            "backups": 3,
+            "price": 360,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-9",
+            "ram": "20GB",
+            "cpu": "500%",
+            "storage": "55GB",
+            "allocations": 6,
+            "databases": 10,
+            "backups": 3,
+            "price": 450,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-10",
+            "ram": "24GB",
+            "cpu": "600%",
+            "storage": "65GB",
+            "allocations": 7,
+            "databases": 12,
+            "backups": 4,
+            "price": 540,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-11",
+            "ram": "32GB",
+            "cpu": "800%",
+            "storage": "85GB",
+            "allocations": 10,
+            "databases": 15,
+            "backups": 5,
+            "price": 720,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          }
+        ],
+        "premium": [
+          {
+            "id": "dlx-1",
+            "ram": "2GB",
+            "cpu": "100%",
+            "storage": "10GB",
+            "allocations": 1,
+            "databases": 1,
+            "backups": 1,
+            "price": 90,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-2",
+            "ram": "4GB",
+            "cpu": "150%",
+            "storage": "15GB",
+            "allocations": 2,
+            "databases": 2,
+            "backups": 1,
+            "price": 180,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-3",
+            "ram": "6GB",
+            "cpu": "200%",
+            "storage": "20GB",
+            "allocations": 2,
+            "databases": 3,
+            "backups": 1,
+            "price": 270,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-4",
+            "ram": "8GB",
+            "cpu": "250%",
+            "storage": "25GB",
+            "allocations": 3,
+            "databases": 4,
+            "backups": 2,
+            "price": 360,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-5",
+            "ram": "10GB",
+            "cpu": "300%",
+            "storage": "30GB",
+            "allocations": 3,
+            "databases": 5,
+            "backups": 2,
+            "price": 450,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-6",
+            "ram": "12GB",
+            "cpu": "350%",
+            "storage": "35GB",
+            "allocations": 4,
+            "databases": 6,
+            "backups": 2,
+            "price": 540,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-7",
+            "ram": "14GB",
+            "cpu": "400%",
+            "storage": "40GB",
+            "allocations": 4,
+            "databases": 7,
+            "backups": 2,
+            "price": 630,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-8",
+            "ram": "16GB",
+            "cpu": "450%",
+            "storage": "45GB",
+            "allocations": 5,
+            "databases": 8,
+            "backups": 3,
+            "price": 720,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-9",
+            "ram": "20GB",
+            "cpu": "500%",
+            "storage": "55GB",
+            "allocations": 6,
+            "databases": 10,
+            "backups": 3,
+            "price": 900,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-10",
+            "ram": "24GB",
+            "cpu": "600%",
+            "storage": "65GB",
+            "allocations": 7,
+            "databases": 12,
+            "backups": 4,
+            "price": 1080,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-11",
+            "ram": "32GB",
+            "cpu": "800%",
+            "storage": "85GB",
+            "allocations": 10,
+            "databases": 15,
+            "backups": 5,
+            "price": 1440,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          }
+        ]
+      }
+    },
+    {
+      "id": "palworld",
+      "name": "Palworld",
+      "description": "Palworld server hosting for private groups and multiplayer communities",
+      "icon": "/icons/palworld-icon.png",
+      "banner": "/banners/palworld.jpg",
+      "featured": true,
+      "startingAt": "₹89/mo",
+      "primaryColor": "#06b6d4",
+      "plans": {
+        "budget": [
+          {
+            "id": "def-1",
+            "ram": "2GB",
+            "cpu": "100%",
+            "storage": "10GB",
+            "allocations": 1,
+            "databases": 1,
+            "backups": 1,
+            "price": 45,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-2",
+            "ram": "4GB",
+            "cpu": "150%",
+            "storage": "15GB",
+            "allocations": 2,
+            "databases": 2,
+            "backups": 1,
+            "price": 90,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-3",
+            "ram": "6GB",
+            "cpu": "200%",
+            "storage": "20GB",
+            "allocations": 2,
+            "databases": 3,
+            "backups": 1,
+            "price": 135,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-4",
+            "ram": "8GB",
+            "cpu": "250%",
+            "storage": "25GB",
+            "allocations": 3,
+            "databases": 4,
+            "backups": 2,
+            "price": 180,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-5",
+            "ram": "10GB",
+            "cpu": "300%",
+            "storage": "30GB",
+            "allocations": 3,
+            "databases": 5,
+            "backups": 2,
+            "price": 225,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-6",
+            "ram": "12GB",
+            "cpu": "350%",
+            "storage": "35GB",
+            "allocations": 4,
+            "databases": 6,
+            "backups": 2,
+            "price": 270,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-7",
+            "ram": "14GB",
+            "cpu": "400%",
+            "storage": "40GB",
+            "allocations": 4,
+            "databases": 7,
+            "backups": 2,
+            "price": 315,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-8",
+            "ram": "16GB",
+            "cpu": "450%",
+            "storage": "45GB",
+            "allocations": 5,
+            "databases": 8,
+            "backups": 3,
+            "price": 360,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-9",
+            "ram": "20GB",
+            "cpu": "500%",
+            "storage": "55GB",
+            "allocations": 6,
+            "databases": 10,
+            "backups": 3,
+            "price": 450,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-10",
+            "ram": "24GB",
+            "cpu": "600%",
+            "storage": "65GB",
+            "allocations": 7,
+            "databases": 12,
+            "backups": 4,
+            "price": 540,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "def-11",
+            "ram": "32GB",
+            "cpu": "800%",
+            "storage": "85GB",
+            "allocations": 10,
+            "databases": 15,
+            "backups": 5,
+            "price": 720,
+            "type": "budget",
+            "orderLink": "https://billing.hostlixo.com"
+          }
+        ],
+        "premium": [
+          {
+            "id": "dlx-1",
+            "ram": "2GB",
+            "cpu": "100%",
+            "storage": "10GB",
+            "allocations": 1,
+            "databases": 1,
+            "backups": 1,
+            "price": 90,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-2",
+            "ram": "4GB",
+            "cpu": "150%",
+            "storage": "15GB",
+            "allocations": 2,
+            "databases": 2,
+            "backups": 1,
+            "price": 180,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-3",
+            "ram": "6GB",
+            "cpu": "200%",
+            "storage": "20GB",
+            "allocations": 2,
+            "databases": 3,
+            "backups": 1,
+            "price": 270,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-4",
+            "ram": "8GB",
+            "cpu": "250%",
+            "storage": "25GB",
+            "allocations": 3,
+            "databases": 4,
+            "backups": 2,
+            "price": 360,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-5",
+            "ram": "10GB",
+            "cpu": "300%",
+            "storage": "30GB",
+            "allocations": 3,
+            "databases": 5,
+            "backups": 2,
+            "price": 450,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-6",
+            "ram": "12GB",
+            "cpu": "350%",
+            "storage": "35GB",
+            "allocations": 4,
+            "databases": 6,
+            "backups": 2,
+            "price": 540,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-7",
+            "ram": "14GB",
+            "cpu": "400%",
+            "storage": "40GB",
+            "allocations": 4,
+            "databases": 7,
+            "backups": 2,
+            "price": 630,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-8",
+            "ram": "16GB",
+            "cpu": "450%",
+            "storage": "45GB",
+            "allocations": 5,
+            "databases": 8,
+            "backups": 3,
+            "price": 720,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-9",
+            "ram": "20GB",
+            "cpu": "500%",
+            "storage": "55GB",
+            "allocations": 6,
+            "databases": 10,
+            "backups": 3,
+            "price": 900,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-10",
+            "ram": "24GB",
+            "cpu": "600%",
+            "storage": "65GB",
+            "allocations": 7,
+            "databases": 12,
+            "backups": 4,
+            "price": 1080,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          },
+          {
+            "id": "dlx-11",
+            "ram": "32GB",
+            "cpu": "800%",
+            "storage": "85GB",
+            "allocations": 10,
+            "databases": 15,
+            "backups": 5,
+            "price": 1440,
+            "type": "premium",
+            "orderLink": "https://billing.hostlixo.com"
+          }
+        ]
+      }
+    }
+  ]
+}

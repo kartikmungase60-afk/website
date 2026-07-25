@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-labelledby="title desc">
+  <title id="title">Developer Core placeholder portrait</title><desc id="desc">Crimson Hostlixo team photo placeholder</desc>
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#1b0a11"/><stop offset="1" stop-color="#07070b"/></linearGradient><radialGradient id="r"><stop stop-color="#e6003d" stop-opacity=".4"/><stop offset="1" stop-color="#e6003d" stop-opacity="0"/></radialGradient></defs>
+  <path fill="url(#g)" d="M0 0h800v900H0z"/><circle cx="400" cy="330" r="330" fill="url(#r)"/>
+  <circle cx="400" cy="330" r="155" fill="#17131a" stroke="#e6003d" stroke-opacity=".35" stroke-width="8"/><path fill="#17131a" d="M105 900c22-235 139-355 295-355s273 120 295 355H105z"/>
+  <text x="400" y="365" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="118" font-weight="800">DC</text>
+  <text x="400" y="820" text-anchor="middle" fill="#ff7998" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="5">COO</text>
+</svg>

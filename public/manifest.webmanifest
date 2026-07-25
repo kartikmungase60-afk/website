@@ -1,0 +1,16 @@
+{
+  "name": "Hostlixo Cloud Hosting",
+  "short_name": "Hostlixo",
+  "description": "Minecraft hosting, VPS hosting, bot hosting and web hosting from Hostlixo Cloud.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

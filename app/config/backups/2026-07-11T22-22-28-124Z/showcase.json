@@ -1,0 +1,53 @@
+{
+  "showcase": {
+    "header": {
+      "badge": {
+        "text": "Our Panel",
+        "icon": "Zap"
+      },
+      "title": {
+        "text": "Experience Our Platform",
+        "accent": "Platform"
+      },
+      "description": "Review the control-panel tools available for supported game servers"
+    },
+    "cards": [
+      {
+        "id": 1,
+        "icon": "Zap",
+        "title": "Shell Access",
+        "description": "Manage your server directly via our own custom made Shell system. no need for any third party tools!",
+        "imageDark": "/panel-showcase/console.png",
+        "imageLight": "/assets/panel/console.png"
+      },
+      {
+        "id": 2,
+        "icon": "Plug",
+        "title": "Plugin Manager",
+        "description": "Search compatible Minecraft plugins and install supported versions from the control panel.",
+        "imageDark": "/panel-showcase/plugins.png",
+        "imageLight": "/assets/panel/plugins.png"
+      },
+      {
+        "id": 3,
+        "icon": "Archive",
+        "title": "Mod Manager",
+        "description": "Install supported mod loaders and packages without leaving the control panel.",
+        "imageDark": "/panel-showcase/mods.png",
+        "imageLight": "/assets/panel/mods.png"
+      },
+      {
+        "id": 4,
+        "icon": "HeartPulse",
+        "title": "Analytics",
+        "description": "Review service activity, resource usage and available operational data.",
+        "imageDark": "/panel-showcase/players.png",
+        "imageLight": "/assets/panel/players.png"
+      }
+    ],
+    "settings": {
+      "autoAdvanceInterval": 5000,
+      "progressUpdateInterval": 100
+    }
+  }
+}

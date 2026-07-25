@@ -1,0 +1,67 @@
+{
+  "name": "Hostlixo Cloud - Minecraft, VPS, Bot & Web Hosting",
+  "short_name": "Hostlixo",
+  "description": "India-based Minecraft hosting, VPS hosting, Discord bot hosting and web hosting with NVMe storage and protected infrastructure.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "categories": ["business", "developer", "productivity"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/assets/branding/hostlixo-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/branding/hostlixo-social-banner.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Hostlixo Cloud hosting platform"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Minecraft Hosting",
+      "short_name": "Minecraft",
+      "description": "View Minecraft server hosting plans",
+      "url": "/games/minecraft",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "VPS Hosting",
+      "short_name": "VPS",
+      "description": "View AMD Ryzen VPS plans",
+      "url": "/vps",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Bot Hosting",
+      "short_name": "Bots",
+      "description": "View Discord bot hosting plans",
+      "url": "/discord",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Web Hosting",
+      "short_name": "Web",
+      "description": "View website hosting plans",
+      "url": "/webhosting",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

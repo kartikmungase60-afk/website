@@ -1,0 +1,12 @@
+{
+  "loading": {
+    "enableLoadingScreen": false,
+    "loadingDuration": 1000
+  },
+  "currency": {
+    "defaultCurrency": "INR",
+    "supportedCurrencies": [
+      { "code": "INR", "symbol": "₹", "name": "Indian Rupee" }
+    ]
+  }
+}

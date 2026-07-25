@@ -1,0 +1,112 @@
+{
+  "heroSlides": [
+    {
+      "id": "minecraft",
+      "eyebrow": "Mumbai Minecraft server hosting",
+      "title": "Premium Minecraft Hosting Built for India",
+      "description": "Launch near Indian players with NVMe storage, dashboard controls and DDoS-filtered connectivity for Java and Bedrock communities.",
+      "price": 60,
+      "href": "/games/minecraft",
+      "image": "/assets/homepage/minecraft-hosting-hero.webp",
+      "thumbnail": "/assets/games/minecraft/minecraft-server-hero.webp",
+      "benefits": ["Mumbai location", "Fast deployment", "Prices in INR"]
+    },
+    {
+      "id": "hytale",
+      "eyebrow": "Hytale server hosting",
+      "title": "Launch your Hytale world",
+      "description": "Flexible server resources, backups and protected connectivity for new and growing Hytale communities.",
+      "price": 45,
+      "href": "/games/hytale",
+      "image": "/assets/homepage/hytale-hosting-hero.jpg",
+      "thumbnail": "/assets/games/hytale/hytale-server-hero.jpg",
+      "benefits": ["Flexible resources", "Backup controls", "Support tickets"]
+    },
+    {
+      "id": "vps",
+      "eyebrow": "VPS hosting India",
+      "title": "Deploy a Mumbai VPS with full control",
+      "description": "Administrative access, AMD Ryzen compute and NVMe storage from our India-based cloud platform.",
+      "price": 224,
+      "href": "/vps",
+      "image": "/assets/homepage/vps-hosting-hero.webp",
+      "thumbnail": "/assets/services/vps/vps-hosting-hero.webp",
+      "benefits": ["Mumbai location", "Root access", "NVMe storage"]
+    },
+    {
+      "id": "web",
+      "eyebrow": "Web hosting India",
+      "title": "Publish websites with confidence",
+      "description": "India-focused SSL-ready hosting for websites, stores and applications with backups and straightforward management.",
+      "price": 314,
+      "href": "/webhosting",
+      "image": "/assets/homepage/web-hosting-hero.webp",
+      "thumbnail": "/assets/services/web/web-hosting-hero.webp",
+      "benefits": ["INR pricing", "SSL support", "Backups"]
+    },
+    {
+      "id": "bot",
+      "eyebrow": "Discord bot hosting",
+      "title": "Keep your Discord bot online",
+      "description": "Node.js, Python and Java runtimes with automatic restart, logs, databases and protected connectivity.",
+      "price": 419,
+      "href": "/discord",
+      "image": "/assets/homepage/bot-hosting-hero.webp",
+      "thumbnail": "/assets/services/bot/discord-bot-hosting-hero.webp",
+      "benefits": ["Automatic restart", "Runtime support", "Log access"]
+    }
+  ],
+  "pricing": {
+    "eyebrow": "Hostlixo Cloud Services",
+    "title": "Choose the hosting\nproduct you need",
+    "description": "Compare game hosting, VPS, web hosting and bot hosting from one place. Each product page lists its available regions, assigned resources and monthly price before checkout.",
+    "exploreText": "Explore game hosting",
+    "exploreHref": "/games",
+    "plans": [
+      {
+        "badge": "GAME SERVERS",
+        "title": "Game Servers",
+        "subtitle": "Minecraft, Hytale and Palworld",
+        "image": "/assets/homepage/minecraft-hosting-hero.webp",
+        "price": 332,
+        "features": ["Automated provisioning", "DDoS filtering", "Dashboard access"],
+        "cta": "VIEW GAME PLANS",
+        "href": "/games",
+        "popular": false
+      },
+      {
+        "badge": "VPS HOSTING",
+        "title": "VPS Hosting",
+        "subtitle": "Root access cloud servers",
+        "image": "/assets/homepage/vps-hosting-hero.webp",
+        "price": 224,
+        "features": ["Full root access", "NVMe SSD", "AMD Ryzen"],
+        "cta": "VIEW VPS PLANS",
+        "href": "/vps",
+        "popular": true
+      },
+      {
+        "badge": "WEB HOSTING",
+        "title": "Web Hosting",
+        "subtitle": "Sites, stores and applications",
+        "image": "/assets/services/web/web-hosting-hero.webp",
+        "price": 314,
+        "features": ["Free SSL", "1-click installs", "Daily backups"],
+        "cta": "GET STARTED",
+        "href": "/webhosting",
+        "popular": false
+      },
+      {
+        "badge": "DISCORD BOTS",
+        "title": "Discord Bot Hosting",
+        "subtitle": "Managed runtime for your bots",
+        "image": "/assets/homepage/bot-hosting-hero.webp",
+        "price": 419,
+        "features": ["Node.js & Python", "Auto restart", "DDoS protection"],
+        "cta": "HOST YOUR BOT",
+        "href": "/discord",
+        "popular": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+"use client"
+
+import { Activity, Download, Loader2, MapPin, Network, Route } from "lucide-react"
+import { useState } from "react"
+
+const endpoints = [
+  { id: "india", country: "India", city: "Mumbai (Primary)", url: "https://www.airtel.in/favicon.ico" },
+  { id: "singapore", country: "Singapore", city: "Singapore", url: "https://www.singtel.com/favicon.ico" },
+  { id: "germany", country: "Germany", city: "Frankfurt", url: "https://www.hetzner.com/favicon.ico" },
+  { id: "usa", country: "USA", city: "California", url: "https://www.cloudflare.com/favicon.ico" },
+]
+
+export default function LookingGlassClient() {
+  const [results, setResults] = useState<Record<string, number | "testing" | "unavailable">>({})
+  const [speed, setSpeed] = useState<number | "testing" | "unavailable" | null>(null)
+  const testRtt = (id: string, url: string) => { setResults((current) => ({ ...current, [id]: "testing" })); const started = performance.now(); const image = new window.Image(); let done = false; const finish = () => { if (done) return; done = true; setResults((current) => ({ ...current, [id]: Math.max(1, Math.round(performance.now() - started)) })) }; image.onload = finish; image.onerror = finish; image.src = `${url}?hostlixo_lg=${Date.now()}`; window.setTimeout(() => { if (!done) { done = true; setResults((current) => ({ ...current, [id]: "unavailable" })) } }, 4000) }
+  const testDownload = async () => { setSpeed("testing"); const bytes = 1_000_000; const started = performance.now(); try { const response = await fetch(`https://speed.cloudflare.com/__down?bytes=${bytes}&cache=${Date.now()}`); await response.arrayBuffer(); const seconds = (performance.now() - started) / 1000; setSpeed(Number(((bytes * 8) / seconds / 1_000_000).toFixed(1))) } catch { setSpeed("unavailable") } }
+  return <div className="space-y-5"><section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">{endpoints.map((endpoint) => { const result = results[endpoint.id]; return <article key={endpoint.id} className="rounded-xl border border-white/10 bg-[#050505] p-5"><MapPin className="h-5 w-5 text-gray-300" /><h2 className="mt-4 font-black">{endpoint.country}</h2><p className="mt-1 text-xs text-gray-500">{endpoint.city}</p><div className="mt-4 rounded-lg border border-white/[0.07] bg-black/15 p-3 text-center"><p className="text-xl font-black text-white">{result === "testing" ? <Loader2 className="mx-auto h-5 w-5 animate-spin" /> : typeof result === "number" ? `${result} ms` : result === "unavailable" ? "Unavailable" : "—"}</p><p className="mt-1 text-[8px] uppercase tracking-wider text-gray-600">HTTPS round trip</p></div><button type="button" onClick={() => testRtt(endpoint.id, endpoint.url)} className="mt-3 w-full rounded-lg bg-white/15 py-2.5 text-xs font-black text-gray-300 hover:bg-white/25"><Activity className="mr-2 inline h-3.5 w-3.5" />Test RTT</button></article> })}</section>
+    <section className="grid gap-4 md:grid-cols-2"><article className="rounded-xl border border-white/10 bg-[#050505] p-6"><Download className="h-5 w-5 text-gray-300" /><h2 className="mt-4 text-lg font-black">Browser download test</h2><p className="mt-2 text-xs leading-6 text-gray-500">Downloads a 1 MB test object from Cloudflare. This measures the browser’s current path, not Hostlixo node capacity.</p><button type="button" onClick={testDownload} className="mt-5 rounded-lg bg-gray-800 px-5 py-2.5 text-xs font-black text-white">{speed === "testing" ? "Testing…" : typeof speed === "number" ? `${speed} Mbps · Test again` : speed === "unavailable" ? "Unavailable · Retry" : "Run speed test"}</button></article><article className="rounded-xl border border-white/10 bg-[#050505] p-6"><Route className="h-5 w-5 text-gray-300" /><h2 className="mt-4 text-lg font-black">Traceroute</h2><p className="mt-2 text-xs leading-6 text-gray-500">Web browsers cannot run ICMP traceroute. A real traceroute feature requires a secured Hostlixo backend and published node test IPs.</p><a href="mailto:support@hostlixo.com?subject=Looking%20Glass%20Traceroute" className="mt-5 inline-flex rounded-lg border border-white/20 px-5 py-2.5 text-xs font-black text-gray-300"><Network className="mr-2 h-3.5 w-3.5" />Request a route check</a></article></section>
+    <p className="text-center text-[10px] leading-5 text-gray-600">These browser tests use public third-party endpoints until Hostlixo supplies dedicated looking-glass IPs. Results are diagnostic estimates, not an SLA.</p>
+  </div>
+}

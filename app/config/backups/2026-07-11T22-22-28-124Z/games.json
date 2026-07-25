@@ -1,0 +1,337 @@
+{
+  "header": {
+    "badge": {
+      "text": "Game Servers"
+    },
+    "title": "Game Server Hosting India",
+    "description": "Launch Minecraft, Hytale and Palworld servers from Mumbai with protected connectivity, NVMe storage, INR pricing and dashboard management. Additional regions are available when your community needs them."
+  },
+  "planTypes": [
+    {
+      "id": "budget",
+      "name": "Budget Ryzen",
+      "image": "/cpu/ryzen7.png"
+    },
+    {
+      "id": "premium",
+      "name": "Premium Ryzen 9",
+      "image": "/cpu/ryzen9.png"
+    }
+  ],
+  "locations": [
+    {
+      "id": "mumbai",
+      "name": "Mumbai",
+      "flag": "/flags/india.webp",
+      "availablePlanTypes": ["budget", "premium"]
+    },
+    {
+      "id": "usa",
+      "name": "USA",
+      "flag": "/flags/usa.png",
+      "availablePlanTypes": ["budget", "premium"]
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "flag": "/flags/singapore.png",
+      "availablePlanTypes": ["budget", "premium"]
+    },
+    {
+      "id": "germany",
+      "name": "Germany",
+      "flag": "/flags/germany.png",
+      "availablePlanTypes": ["budget", "premium"]
+    }
+  ],
+  "games": [
+    {
+      "id": "minecraft",
+      "name": "Minecraft Java",
+      "description": "Java Edition hosting for survival, modded and community Minecraft servers",
+      "icon": "/icons/minecraft-icon.webp",
+      "banner": "/banners/minecraft-banners.webp",
+      "featured": true,
+      "startingAt": "\u20b960/mo",
+      "primaryColor": "#4CAF50",
+      "plans": {
+        "budget": [
+          {
+            "id": "minecraft-budget-1",
+            "name": "Minecraft 4GB",
+            "type": "budget",
+            "ram": "4 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 4.0,
+            "orderLink": "https://dash.hostlixo.com"
+          },
+          {
+            "id": "minecraft-budget-2",
+            "name": "Minecraft 8GB",
+            "type": "budget",
+            "ram": "8 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 8.0,
+            "orderLink": "https://dash.hostlixo.com"
+          },
+          {
+            "id": "minecraft-budget-3",
+            "name": "Minecraft 16GB",
+            "type": "budget",
+            "ram": "16 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 16.0,
+            "orderLink": "https://dash.hostlixo.com"
+          },
+          {
+            "id": "minecraft-budget-4",
+            "name": "Minecraft 32GB",
+            "type": "budget",
+            "ram": "32 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 32.0,
+            "orderLink": "https://dash.hostlixo.com"
+          }
+        ],
+        "premium": [
+          {
+            "id": "minecraft-premium-1",
+            "name": "Minecraft 4GB",
+            "type": "premium",
+            "ram": "4 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 5.0,
+            "orderLink": "https://dash.hostlixo.com"
+          },
+          {
+            "id": "minecraft-premium-2",
+            "name": "Minecraft 8GB",
+            "type": "premium",
+            "ram": "8 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 10.0,
+            "orderLink": "https://dash.hostlixo.com"
+          },
+          {
+            "id": "minecraft-premium-3",
+            "name": "Minecraft 16GB",
+            "type": "premium",
+            "ram": "16 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 20.0,
+            "orderLink": "https://dash.hostlixo.com"
+          },
+          {
+            "id": "minecraft-premium-4",
+            "name": "Minecraft 32GB",
+            "type": "premium",
+            "ram": "32 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 40.0,
+            "orderLink": "https://dash.hostlixo.com"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hytale",
+      "name": "Hytale",
+      "description": "Hytale server plans with configurable resources and dashboard access",
+      "icon": "/icons/hytale-icon.webp",
+      "banner": "/banners/hytale.jpg",
+      "featured": true,
+      "startingAt": "₹89/mo",
+      "primaryColor": "#06b6d4",
+      "plans": {
+        "budget": [
+          {
+            "id": "hytale-budget-1",
+            "name": "Hytale 4GB",
+            "type": "budget",
+            "ram": "4 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 4.0,
+            "orderLink": "https://dash.hostlixo.com"
+          },
+          {
+            "id": "hytale-budget-2",
+            "name": "Hytale 8GB",
+            "type": "budget",
+            "ram": "8 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 8.0,
+            "orderLink": "https://dash.hostlixo.com"
+          },
+          {
+            "id": "hytale-budget-3",
+            "name": "Hytale 16GB",
+            "type": "budget",
+            "ram": "16 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 16.0,
+            "orderLink": "https://dash.hostlixo.com"
+          },
+          {
+            "id": "hytale-budget-4",
+            "name": "Hytale 32GB",
+            "type": "budget",
+            "ram": "32 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 32.0,
+            "orderLink": "https://dash.hostlixo.com"
+          }
+        ],
+        "premium": [
+          {
+            "id": "hytale-premium-1",
+            "name": "Hytale 4GB",
+            "type": "premium",
+            "ram": "4 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 5.0,
+            "orderLink": "https://dash.hostlixo.com"
+          },
+          {
+            "id": "hytale-premium-2",
+            "name": "Hytale 8GB",
+            "type": "premium",
+            "ram": "8 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 10.0,
+            "orderLink": "https://dash.hostlixo.com"
+          },
+          {
+            "id": "hytale-premium-3",
+            "name": "Hytale 16GB",
+            "type": "premium",
+            "ram": "16 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 20.0,
+            "orderLink": "https://dash.hostlixo.com"
+          },
+          {
+            "id": "hytale-premium-4",
+            "name": "Hytale 32GB",
+            "type": "premium",
+            "ram": "32 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 40.0,
+            "orderLink": "https://dash.hostlixo.com"
+          }
+        ]
+      }
+    },
+    {
+      "id": "palworld",
+      "name": "Palworld",
+      "description": "Palworld server hosting for private groups and multiplayer communities",
+      "icon": "/icons/palworld-icon.png",
+      "banner": "/banners/palworld.jpg",
+      "featured": true,
+      "startingAt": "₹89/mo",
+      "primaryColor": "#06b6d4",
+      "plans": {
+        "budget": [
+          {
+            "id": "palworld-budget-1",
+            "name": "Palworld 4GB",
+            "type": "budget",
+            "ram": "4 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 4.0,
+            "orderLink": "https://dash.hostlixo.com"
+          },
+          {
+            "id": "palworld-budget-2",
+            "name": "Palworld 8GB",
+            "type": "budget",
+            "ram": "8 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 8.0,
+            "orderLink": "https://dash.hostlixo.com"
+          },
+          {
+            "id": "palworld-budget-3",
+            "name": "Palworld 16GB",
+            "type": "budget",
+            "ram": "16 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 16.0,
+            "orderLink": "https://dash.hostlixo.com"
+          },
+          {
+            "id": "palworld-budget-4",
+            "name": "Palworld 32GB",
+            "type": "budget",
+            "ram": "32 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 32.0,
+            "orderLink": "https://dash.hostlixo.com"
+          }
+        ],
+        "premium": [
+          {
+            "id": "palworld-premium-1",
+            "name": "Palworld 4GB",
+            "type": "premium",
+            "ram": "4 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 5.0,
+            "orderLink": "https://dash.hostlixo.com"
+          },
+          {
+            "id": "palworld-premium-2",
+            "name": "Palworld 8GB",
+            "type": "premium",
+            "ram": "8 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 10.0,
+            "orderLink": "https://dash.hostlixo.com"
+          },
+          {
+            "id": "palworld-premium-3",
+            "name": "Palworld 16GB",
+            "type": "premium",
+            "ram": "16 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 20.0,
+            "orderLink": "https://dash.hostlixo.com"
+          },
+          {
+            "id": "palworld-premium-4",
+            "name": "Palworld 32GB",
+            "type": "premium",
+            "ram": "32 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 40.0,
+            "orderLink": "https://dash.hostlixo.com"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+import Link from "next/link"
+import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
+import { articles } from "./articles"
+
+export default function BlogPage() { return <div className="min-h-screen bg-[#000000] text-white"><Navbar /><main className="mx-auto max-w-5xl px-4 pb-20 pt-32 sm:px-6 lg:px-8"><header className="max-w-2xl"><p className="text-xs font-bold uppercase tracking-[0.2em] text-gray-300">Hostlixo knowledge base</p><h1 className="mt-3 text-4xl font-black sm:text-5xl">Hosting guides without the guesswork</h1><p className="mt-5 text-sm leading-7 text-gray-400">Practical explanations for choosing server resources, regions and infrastructure.</p></header><div className="mt-12 grid gap-4 md:grid-cols-3">{articles.map((article) => <article key={article.slug} className="rounded-xl border border-white/[0.08] bg-[#101019] p-6"><p className="text-[10px] uppercase tracking-wider text-gray-600">Updated {article.published}</p><h2 className="mt-3 text-lg font-bold">{article.title}</h2><p className="mt-3 text-xs leading-6 text-gray-400">{article.description}</p><Link href={`/blog/${article.slug}`} className="mt-5 inline-flex text-xs font-bold text-gray-300">Read guide <span className="ml-2">&rarr;</span></Link></article>)}</div></main><Footer /></div> }

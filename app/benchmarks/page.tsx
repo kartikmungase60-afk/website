@@ -1,0 +1,30 @@
+import { Activity, Cpu, Gauge, HardDrive, Network, TerminalSquare } from "lucide-react"
+import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
+
+const suites = [
+  { icon: Cpu, title: "Geekbench 6", scope: "CPU performance", detail: "Single-core and multi-core scores with the exact plan, region, OS and test date recorded." },
+  { icon: TerminalSquare, title: "YABS", scope: "Comparable VPS profile", detail: "A repeatable overview of CPU, memory, disk and network behavior using the public YABS script." },
+  { icon: HardDrive, title: "fio", scope: "NVMe storage", detail: "Sequential throughput, random IOPS and latency at disclosed block sizes and queue depths." },
+  { icon: Network, title: "iperf3 & route tests", scope: "Network performance", detail: "Throughput, packet loss and route quality measured from relevant regions and providers." },
+]
+
+const testMatrix = [
+  ["CPU", "Geekbench 6", "Single and multi-core", "5 runs, median reported"],
+  ["System", "YABS", "CPU, disk and network", "Full output retained"],
+  ["NVMe", "fio", "4K random + 1M sequential", "Cache and queue depth disclosed"],
+  ["Network", "iperf3", "Throughput and loss", "Multiple destinations and times"],
+  ["Minecraft", "spark + Paper timings", "MSPT and tick stability", "Repeatable player simulation"],
+]
+
+export default function BenchmarksPage() { return <div className="min-h-screen bg-[#000000] text-white"><Navbar /><main className="pb-20 pt-28">
+  <section className="relative overflow-hidden border-b border-white/[0.06] px-4 py-20 sm:px-6 lg:px-8"><div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(156,163,175,.14),transparent_48%)]" /><header className="relative mx-auto max-w-5xl"><p className="text-xs font-bold uppercase tracking-[0.2em] text-gray-300">Hardware transparency</p><h1 className="mt-3 max-w-3xl text-4xl font-black sm:text-6xl">Benchmarks that can be reproduced.</h1><p className="mt-5 max-w-2xl text-sm leading-7 text-gray-400">A benchmark is useful only when the node, plan, software and method are disclosed. Hostlixo uses a defined test suite and does not publish unsupported scores as live production results.</p><div className="mt-7 flex flex-wrap gap-3 text-[10px] font-black uppercase tracking-wider"><span className="rounded-full border border-white/20 bg-white/10 px-3 py-2 text-gray-300">CPU</span><span className="rounded-full border border-white/20 bg-white/10 px-3 py-2 text-gray-300">NVMe</span><span className="rounded-full border border-white/20 bg-white/10 px-3 py-2 text-gray-300">Network</span><span className="rounded-full border border-white/20 bg-white/10 px-3 py-2 text-gray-300">Application</span></div></header></section>
+
+  <section className="mx-auto mt-14 max-w-6xl px-4 sm:px-6 lg:px-8"><div className="grid gap-4 md:grid-cols-2">{suites.map((item, index) => <article key={item.title} className="rounded-2xl border border-white/[0.08] bg-[#101019] p-6"><div className="flex items-start justify-between"><span className="flex h-11 w-11 items-center justify-center rounded-xl bg-white/10"><item.icon className="h-5 w-5 text-gray-300" /></span><span className="text-[10px] font-black uppercase tracking-wider text-gray-600">0{index + 1}</span></div><p className="mt-5 text-[10px] font-black uppercase tracking-wider text-gray-300">{item.scope}</p><h2 className="mt-1 text-xl font-black">{item.title}</h2><p className="mt-3 text-xs leading-6 text-gray-400">{item.detail}</p><div className="mt-5 flex h-12 items-end gap-1.5" aria-hidden="true">{[35,52,44,68,62,82,76,94].map((height, bar) => <span key={bar} className="flex-1 rounded-t bg-gradient-to-t from-gray-700 to-gray-900" style={{ height: `${Math.max(18, height - index * 4)}%` }} />)}</div></article>)}</div></section>
+
+  <section className="mx-auto mt-16 max-w-6xl px-4 sm:px-6 lg:px-8"><header><p className="text-[10px] font-black uppercase tracking-wider text-gray-300">Test protocol</p><h2 className="mt-2 text-3xl font-black">What every published result must include</h2></header><div className="mt-7 overflow-x-auto rounded-2xl border border-white/10"><table className="w-full min-w-[760px] text-left"><thead className="bg-[#10131a] text-[10px] uppercase tracking-wider text-gray-500"><tr>{["Layer", "Tool", "Measurement", "Reporting rule"].map((head) => <th key={head} className="border-l border-white/[0.07] p-4 first:border-l-0">{head}</th>)}</tr></thead><tbody>{testMatrix.map((row, index) => <tr key={row[0]} className={index % 2 ? "bg-white/[0.015]" : "bg-[#0a0c11]"}>{row.map((cell, cellIndex) => cellIndex === 0 ? <th key={cell} className="p-4 text-xs text-white">{cell}</th> : <td key={cell} className="border-l border-white/[0.07] p-4 text-xs text-gray-400">{cell}</td>)}</tr>)}</tbody></table></div></section>
+
+  <section className="mx-auto mt-16 max-w-5xl px-4 sm:px-6"><div className="grid gap-4 md:grid-cols-3"><Principle icon={Activity} title="Repeat runs" text="Report the median, not the best screenshot." /><Principle icon={Gauge} title="Disclose load" text="Record the plan, node state and test duration." /><Principle icon={Network} title="Test real routes" text="Measure from networks relevant to actual users." /></div><div className="mt-4 rounded-xl border border-white/20 bg-white/[0.05] p-6"><h2 className="font-bold text-gray-300">Why scores are not fabricated</h2><p className="mt-3 text-xs leading-6 text-gray-400">Production results require verified access to each node and permission to publish them. Until that data is connected, the site shows the exact evaluation method rather than presenting sample numbers as Hostlixo performance.</p></div></section>
+  </main><Footer /></div> }
+
+function Principle({ icon: Icon, title, text }: { icon: typeof Activity; title: string; text: string }) { return <article className="rounded-xl border border-white/[0.08] bg-[#101019] p-5"><Icon className="h-5 w-5 text-gray-300" /><h3 className="mt-4 font-black">{title}</h3><p className="mt-2 text-xs leading-6 text-gray-500">{text}</p></article> }

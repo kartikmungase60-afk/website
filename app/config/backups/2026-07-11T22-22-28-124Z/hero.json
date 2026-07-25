@@ -1,0 +1,73 @@
+{
+  "navbar": {
+      "logo": "/assets/branding/hostlixo-logo.svg",
+    "brandName": "Hostlixo",
+    "brandAccent": " Cloud"
+  },
+  "hero": {
+    "title": {
+      "prefix": "Host your own",
+      "suffix": "Servers",
+      "suffixColor": "white",
+      "gameNameColor": "#d1d5db"
+    },
+    "games": [
+  {
+    "id": "minecraft",
+    "name": "minecraft",
+    "displayName": "Minecraft",
+    "color": "#4CAF50",
+    "banner": "/banners/minecraft-banners.webp",
+    "icon": "/icons/minecraft-icon.webp",
+    "showInDropdown": true
+  },
+  {
+    "id": "hytale",
+    "name": "hytale",
+    "displayName": "Hytale",
+    "color": "#f97316",
+    "banner": "/banners/hytale.jpg?v=3",
+    "icon": "/icons/hytale-icon.webp",
+    "showInDropdown": true
+  },
+  {
+    "id": "palworld",
+    "name": "palworld",
+    "displayName": "Palworld",
+    "color": "#06b6d4",
+    "banner": "/banners/palworld.jpg",
+    "icon": "/icons/palworld-icon.png",
+    "showInDropdown": true
+  }
+],
+    "description": "India-based hosting headquartered in Mumbai, with additional infrastructure in Singapore, Germany and the United States.",
+    "cycleInterval": 10000,
+    "partners": [
+      {
+        "name": "Hetzner",
+        "src": "/advertisement/hetzner.png",
+        "loading": "lazy"
+      },
+      {
+        "name": "Intel",
+        "src": "/advertisement/intel.png",
+        "loading": "lazy"
+      },
+      {
+        "name": "Pterodactyl",
+        "src": "/advertisement/pterodactyl.png",
+        "loading": "lazy"
+      },
+      {
+        "name": "NeoProtect",
+        "src": "/advertisement/neoprotect.png",
+        "loading": "lazy"
+      },
+      {
+        "name": "Samsung",
+        "src": "/advertisement/samsung.png",
+        "loading": "lazy"
+      }
+    ]
+  }
+}

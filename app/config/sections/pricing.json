@@ -1,0 +1,60 @@
+{
+  "section": {
+    "title": {
+      "prefix": "Choose Your",
+      "highlight": "Plan",
+      "suffix": ""
+    },
+    "description": "Select the perfect hosting solution for your needs",
+    "footer": {
+      "text": "Need a custom plan?",
+      "linkText": "Contact us"
+    },
+    "plans": [
+      {
+        "title": "Game Servers",
+        "description": "Configured hosting plans for Minecraft, Hytale and Palworld",
+        "image": "/banners/minecraft-banners.webp",
+        "basePrice": 0,
+        "popular": false,
+        "features": ["Minecraft, Hytale & Palworld", "Automated provisioning", "DDoS filtering", "Dashboard access"],
+        "buttonText": "VIEW PLANS",
+        "buttonStyle": "secondary",
+        "link": "/games"
+      },
+      {
+        "title": "VPS Hosting",
+        "description": "Scalable virtual private servers for your applications",
+        "image": "/vps.png",
+        "basePrice": 0,
+        "popular": true,
+        "features": ["Full root access", "NVMe SSD storage", "99.99% uptime", "AMD Ryzen powered"],
+        "buttonText": "ORDER NOW",
+        "buttonStyle": "primary",
+        "link": "/vps"
+      },
+      {
+        "title": "Web Hosting",
+        "description": "Fast and reliable hosting for your websites",
+        "image": "/assets/services/web/web-hosting-hero.webp",
+        "basePrice": 0,
+        "popular": false,
+        "features": ["Free SSL certificate", "99.9% uptime", "1-click installs", "Daily backups"],
+        "buttonText": "GET STARTED",
+        "buttonStyle": "secondary",
+        "link": "/webhosting"
+      },
+      {
+        "title": "Discord Bot Hosting",
+        "description": "Keep your Discord bots online 24/7",
+        "image": "/banners/node.webp",
+        "basePrice": 0,
+        "popular": false,
+        "features": ["24/7 uptime", "Node.js & Python", "Auto restart", "DDoS protection"],
+        "buttonText": "HOST YOUR BOT",
+        "buttonStyle": "secondary",
+        "link": "/discord"
+      }
+    ]
+  }
+}

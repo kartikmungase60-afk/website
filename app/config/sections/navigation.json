@@ -1,0 +1,149 @@
+{
+  "mainNavigation": [
+    {
+      "name": "Home",
+      "href": "/",
+      "icon": "Home",
+      "hasDropdown": false,
+      "dropdownType": "important"
+    },
+    {
+      "name": "Game Hosting",
+      "href": "/games",
+      "icon": "Gamepad2",
+      "hasDropdown": true,
+      "dropdownType": "important",
+      "dropdownItems": [
+        {
+          "name": "Minecraft Hosting",
+          "description": "Premium game servers from Rs60/mo",
+          "href": "/games/minecraft",
+          "icon": "Gamepad2"
+        },
+        {
+          "name": "Hytale Hosting",
+          "description": "Ready for next-gen multiplayer servers",
+          "href": "/games/hytale",
+          "icon": "Gamepad2"
+        },
+        {
+          "name": "Palworld Hosting",
+          "description": "Fast survival server hosting",
+          "href": "/games/palworld",
+          "icon": "Gamepad2"
+        }
+      ]
+    },
+    {
+      "name": "Other Hosting",
+      "href": "/vps",
+      "icon": "Server",
+      "hasDropdown": true,
+      "dropdownType": "important",
+      "dropdownItems": [
+        {
+          "name": "VPS Hosting",
+          "description": "NVMe virtual servers with root access",
+          "href": "/vps",
+          "icon": "Server"
+        },
+        {
+          "name": "Bot Hosting",
+          "description": "Discord bot runtimes with auto restart",
+          "href": "/discord",
+          "icon": "FaDiscord"
+        },
+        {
+          "name": "Web Hosting",
+          "description": "Fast website hosting with clear pricing",
+          "href": "/webhosting",
+          "icon": "Globe"
+        }
+      ]
+    },
+    {
+      "name": "Company",
+      "href": "/about",
+      "icon": "Building2",
+      "hasDropdown": true,
+      "dropdownType": "important",
+      "dropdownItems": [
+        {
+          "name": "About Hostlixo",
+          "description": "Mumbai-based cloud hosting team",
+          "href": "/about",
+          "icon": "Building2"
+        },
+        {
+          "name": "Reviews",
+          "description": "Customer feedback and trust",
+          "href": "/reviews",
+          "icon": "User"
+        },
+        {
+          "name": "Network",
+          "description": "Regions and route transparency",
+          "href": "/network",
+          "icon": "Globe"
+        },
+        {
+          "name": "Status",
+          "description": "Service health and uptime",
+          "href": "/status",
+          "icon": "Shield"
+        },
+        {
+          "name": "Contact",
+          "description": "Talk to support",
+          "href": "/contact",
+          "icon": "User"
+        }
+      ]
+    },
+    {
+      "name": "Legal",
+      "href": "/terms-of-services",
+      "icon": "Scale",
+      "hasDropdown": true,
+      "dropdownType": "legal",
+      "dropdownItems": [
+        {
+          "name": "Terms of Service",
+          "description": "Hosting terms and usage policy",
+          "href": "/terms-of-services",
+          "icon": "FileText"
+        },
+        {
+          "name": "Privacy Policy",
+          "description": "How customer data is handled",
+          "href": "/privacy-policy",
+          "icon": "Shield"
+        },
+        {
+          "name": "Refund Policy",
+          "description": "Billing and refund information",
+          "href": "/refund-policy",
+          "icon": "FileText"
+        }
+      ]
+    }
+  ],
+  "socialLinks": [
+    {
+      "name": "Discord",
+      "href": "https://discord.gg/97CrJNkJ2T",
+      "icon": "discord"
+    }
+  ],
+  "clientSpace": {
+    "name": "Get Started",
+    "href": "https://billing.hostlixo.com",
+    "icon": "User"
+  },
+  "banner": {
+    "show": true,
+    "text": "India Launch Offer: transparent INR hosting plans from Hostlixo Cloud",
+    "couponCode": "HOSTLIXO",
+    "backgroundColor": "bg-gray-900"
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-labelledby="title desc">
+  <title id="title">USA region backdrop</title><desc id="desc">Abstract crimson city network</desc>
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#1d0710"/><stop offset="1" stop-color="#07070b"/></linearGradient><radialGradient id="r"><stop stop-color="#ff174f" stop-opacity=".45"/><stop offset="1" stop-color="#ff174f" stop-opacity="0"/></radialGradient></defs>
+  <path fill="url(#g)" d="M0 0h640v220H0z"/><circle cx="520" cy="38" r="180" fill="url(#r)"/>
+  <g fill="#240b14"><path d="M0 178h55v-44h30v44h42V99h38v79h45v-57h33v57h54V75h45v103h48v-69h37v69h48v-91h44v91h31v-52h35v52h55v42H0z"/></g>
+  <g stroke="#ff174f" stroke-opacity=".22"><path d="M40 35h520M90 12v184M210 12v184M330 12v184M450 12v184M570 12v184"/></g>
+</svg>

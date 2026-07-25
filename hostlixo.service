@@ -1,0 +1,28 @@
+[Unit]
+Description=Hostlixo Next.js Website
+After=network.target
+
+[Service]
+# User and group that the service will run as
+User=root
+Group=root
+
+# The directory where your website code is located
+WorkingDirectory=/var/www/hostlixo
+
+# The command to start the Next.js server
+Environment=NODE_ENV=production
+Environment=PORT=3000
+ExecStart=/usr/bin/npm start
+
+# Automatically restart the service if it crashes
+Restart=always
+RestartSec=10
+
+# Standard output and error logs will go to syslog/journald
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=hostlixo-web
+
+[Install]
+WantedBy=multi-user.target
